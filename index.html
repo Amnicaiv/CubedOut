@@ -93,13 +93,6 @@
 				$('#OptionsSpace').show();
 			});
 
-			$('#selectLVL1').click(function(){
-				console.log("Play");
-				$('#LevelSelectSpace').hide();
-				$('#PlaySpace').show();
-				isPlaying = true;
-			});
-			
 
 			$('#selectLVL2').click(function(){
 				console.log("Play");
@@ -224,7 +217,13 @@
 		$(document).ready(function() {
 
 
-			
+			$('#selectLVL1').click(function(){
+				console.log("Play");
+				$('#LevelSelectSpace').hide();
+				$('#PlaySpace').show();
+				isPlaying = true;
+				pause =false;
+			});
 
 			pauseOwner = "all";
 			setupScene();
