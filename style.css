@@ -1,0 +1,164 @@
+body {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.bg-image{
+	background-image: url("https://wallpapercave.com/wp/wp2586787.jpg");
+	height: 100%;
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parent {
+
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+
+.center {
+
+  background-color: #DDDDDD;
+
+  width: 80%;
+
+  height: 500px;
+
+  border-radius: 20px;
+}
+
+.menuBtn{
+	width: 100%;
+	margin-top: 50px;
+	padding:20px;
+	padding-left: 80px;
+	padding-right: 80px;
+	border-radius: 10px;
+	font-size: 2em;
+}
+
+.screenBtn{
+	width: 15%;
+	margin-left: 43%;
+	margin-top: 40%;
+	/*padding:20px;
+	padding-left: 80px;
+	padding-right: 80px;*/
+	border-radius: 6px;
+	font-size: 1em;
+	/*position: absolute;*/
+}
+
+button:hover{
+	background-color: #B0FFAB;
+	opacity: 75%
+}
+
+.Title{
+	
+	height: 100%;
+
+	display: flex;
+
+	align-items: center;
+
+	justify-content: center;
+}
+
+h1{
+	font-size: 5em;
+}
+
+div[id="TitleText"] p{
+	font-size: 2em;
+	margin-left: 20px;
+}
+
+#MenuSpace{
+	width: 100%;
+	position: absolute;
+	top: 5%;
+}
+
+.play{
+	background-color: black;
+}
+
+#menuSub{
+	margin-left: 35px;
+}
+
+.slidecontainer{
+
+	margin-left: 25%;
+}
+
+.leaderboardItem{
+	background-color: #ccf7ff;
+	align-self: center;
+	height: 8%;
+	width: 70%;
+	margin-left: 15%;
+	font-size: 20px;
+	border-radius: 8px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+
+#levelSelectDiv{
+	height: 45%;
+	width: 25%;
+	background-color: white;
+	border-radius: 8px;
+	margin-left: 6%; 
+	margin-top: 10%; 
+	display: inline-block;
+}
+
+.btnSelectScene{
+
+	margin-left: 35%;
+	margin-top: 2%;
+}
+
+#SelectionDiv{
+	display: inline-block;
+
+	width: 100%;
+	height: 50%;
+	margin-top: 10%;
+}
+
+
+
+/*div.menu{
+
+	background-color: green;
+	
+  	justify-content: center;
+
+  	margin-top: 100px;
+}
+
+
+
+
+div > button{
+
+  	justify-content: center;
+
+  	margin-top: 50px;
+
+  	display: block;
+}*/
