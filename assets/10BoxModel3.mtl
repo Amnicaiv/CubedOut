@@ -12,7 +12,7 @@ illum 4
 Kd 0.50 0.50 0.50
 Ka 0.50 0.50 0.50
 Tf 1.00 1.00 1.00
-map_Kd Cobblestone.jpg
+map_Kd cobblestone.jpg
 bump CobblestoneNormal.png -bm 1
 Ni 1.00
 newmtl BoxModel:initialShadingGroup2
